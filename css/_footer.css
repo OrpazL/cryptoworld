@@ -1,0 +1,125 @@
+footer {
+	text-align: center;
+	background-color: #623bbb;
+	color: white;
+}
+
+.footer-top {
+	background-color: #623bbb;
+	/* height: 670px; */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 100px 0;
+
+	/* HIDING FOR DEV */
+	/* display: none; */
+}
+
+.footer-top > *,
+.footer-bottom {
+	max-width: calc(100% - 40px);
+	margin: 0 auto;
+}
+
+.footer-top .title {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.footer-top .subtitle {
+	font-size: 1.25em;
+}
+.footer-top .content {
+    padding: 30px 0px;
+} 
+.footer-top .pages-nav {
+	display: flex;
+	justify-content: space-around;
+}
+.footer-top .pages-nav .item {
+	width: 37px;
+	height: 37px;
+	border-radius: 50%;
+
+	background-color: #fff;
+	color: #00a9ff;
+	transition: 0.3s;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 12.5px;
+
+	cursor: pointer;
+}
+.footer-top .pages-nav .item:hover,
+.footer-top .pages-nav .item.active {
+	background-color: #00a9ff;
+	color: white;
+}
+
+.footer-bottom {
+	display: none;
+	justify-content: space-evenly;
+	text-align: left;
+	padding: 40px 0;
+}
+
+.footer-bottom .menu .title {
+	font-weight: bold;
+	font-size: 18px;
+	margin: 12px 0;
+	text-transform: capitalize;
+}
+.footer-bottom .menu .item {
+	margin: 11px 0;
+	display: block;
+}
+.footer-bottom .menu .item:hover {
+	text-decoration: underline;
+}
+
+footer .copyrights {
+	padding: 14px;
+	font-size: 14px;
+}
+footer .copyrights a {
+	font-weight: bold;
+}
+footer .copyrights a:hover {
+	text-decoration: underline;
+}
+
+@media (min-width: 720px) {
+	footer {
+		background-color: black;
+	}
+
+	.footer-top > *,
+	.footer-bottom {
+		max-width: 62%;
+		margin: 0 auto;
+    }
+    .footer-top .title {
+        font-size: 3em;
+        font-weight: bold;
+    }
+    .footer-top .subtitle {
+        font-size: 2em;
+    }
+    .footer-top .content {
+        padding: 30px 100px;
+    }    
+
+	.footer-top .pages-nav .item {
+		width: 64px;
+		height: 64px;
+		font-size: 2.25em;
+		margin: 25px;
+	}
+
+	.footer-bottom {
+		display: flex;
+	}
+}
