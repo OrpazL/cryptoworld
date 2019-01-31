@@ -1,0 +1,80 @@
+main {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    width: 100%;
+    padding: 0 25px;
+    text-align: center;
+}
+main .title {
+	font-weight: 100;
+    font-size: 60px;
+    margin: 30px 25px;
+}
+
+main .search-bar {
+	width: 100%;
+	display: flex;
+}
+main .search-bar input {
+	height: 50px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	flex-grow: 1;
+	border: 0;
+	padding: 16px 20px;
+}
+
+main .search-bar button {
+	width: 60px;
+	height: 50px;
+	line-height: 100%;
+
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border: 0;
+	background-color: #00a9ff;
+}
+
+main .dots {
+    display: flex;
+}
+
+main .dots .dot {
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+    border-radius: 50%; 
+    margin: 10px;
+}
+main .dots .dot.active , main .dots .dot:hover {
+    background-color: #fff;
+}
+
+main .content {
+    margin-top: 35px;
+}
+
+@media (min-width: 700px) {
+    main {
+        width: 62%;
+        position: relative;
+    }
+	main .title {
+		font-size: 9em;
+		margin: 55px auto;
+    }
+    
+    main .content {
+        margin-top: 80px;
+    }
+
+    main .dots {
+        flex-direction: column;
+        position: absolute;
+        right: -16%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
