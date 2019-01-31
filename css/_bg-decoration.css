@@ -1,0 +1,68 @@
+
+.bg-decoration {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.bg-decoration .bg-square {
+	position: absolute;
+	background-image: linear-gradient(to bottom right, #3023ae 60%, #c86dd7);
+	width: 500px;
+	height: 500px;
+	border-radius: 25%;
+	z-index: -1;
+}
+.bg-decoration .bg-square.white {
+	background: #fff;
+	width: 1000px;
+	border-radius: 45%;
+}
+.bg-decoration .bg-square.top-left {
+	top: 0;
+	left: 0;
+	transform: translate(-25%, -40%) rotateZ(-15deg) scale(3);
+	/* transform: translate(-55%, -35%) rotateZ(-35deg); */
+}
+.bg-decoration .bg-square.top-right {
+	top: 0;
+	right: 0;
+	transform: translate(53%, -25%) scale(2.5) rotateZ(110deg);
+	z-index: -2;
+}
+.bg-decoration .bg-square.middle-left {
+	top: 50%;
+	left: 0;
+	transform: translate(-54.5%, -75%) scale(2) rotateZ(-5deg);
+	z-index: -2;
+}
+.bg-decoration .bg-square.middle-right {
+	top: 50%;
+	right: 0;
+	transform: translate(54.5%, -75%) scale(2) rotateZ(-5deg);
+}
+.bg-decoration .bg-square.bottom-left {
+	bottom: 0;
+	left: 0;
+	transform: translate(0%, -75%) scale(3) rotateZ(-65deg);
+	z-index: -3;
+}
+.bg-decoration .bg-square.bottom-right {
+	bottom: 0;
+	right: 0;
+	transform: translate(80%, -50%) scale(3) rotateZ(160deg);
+	z-index: -3;
+}
+
+/* 
+@media (min-width: 700px) {
+	.bg-decoration .bg-top {
+		display: flex;
+		flex-direction: column;
+	}
+	.bg-decoration .bg-top > * {
+		position: unset;
+	}
+} */

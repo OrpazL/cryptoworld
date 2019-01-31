@@ -2,6 +2,7 @@ footer {
 	text-align: center;
 	background-color: #623bbb;
 	color: white;
+
 }
 
 .footer-top {
@@ -94,6 +95,7 @@ footer .copyrights a:hover {
 @media (min-width: 720px) {
 	footer {
 		background-color: black;
+		margin-top: 300px;
 	}
 
 	.footer-top > *,
