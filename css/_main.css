@@ -55,23 +55,25 @@ main .dots .dot:hover {
 }
 
 main .slide {
-    position: absolute;
-    width: 80%;
-    bottom: 0;
-    transform: translateY(100%);
-}
-main .slide .content {
+    display: none;
     margin-top: 35px;
-    opacity: 0;
     transition: .5s;
-    
-}
-main .slide input:checked + .content {
-    opacity: 1;
 }
 
-main .slide input {
+main input[name="slide"]:checked + .slide {
+    display: block;
+}
+
+main input[name="slide"] {
     display: none;
+}
+
+main #slide1:checked ~ .dots label:nth-child(1),
+main #slide2:checked ~ .dots label:nth-child(2),
+main #slide3:checked ~ .dots label:nth-child(3),
+main #slide4:checked ~ .dots label:nth-child(4),
+main #slide5:checked ~ .dots label:nth-child(5) {
+    background-color: #fff;
 }
 
 @media (min-width: 700px) {
