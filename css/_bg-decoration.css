@@ -5,6 +5,7 @@
     width: 100%;
     position: absolute;
     overflow: hidden;
+    z-index: -1;
 }
 
 .bg-decoration .bg-square {

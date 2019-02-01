@@ -37,10 +37,11 @@ header .btn-sign-up {
 }
 @media (min-width: 700px) {
 	header {
-		position: unset;
+		position: sticky;
 		width: 81%;
 		left: 19%;
-		padding-top: 42px;
+		padding: 42px 25px 0;
+		/* margin-bottom: 100px; */
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: flex-end;
