@@ -6,6 +6,7 @@
 	width: 100%;
 	padding: 0 25px;
 	align-items: center;
+	margin: 200px 0;
 }
 
 .page-info .data {
@@ -68,7 +69,8 @@
 @media (min-width: 700px) {
 	.page-info {
 		flex-direction: row;
-        width: 62%;
+		width: 62%;
+		margin: 1em 0;
 	}
 	.page-info .data {
 		align-items: unset;

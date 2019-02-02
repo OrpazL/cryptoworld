@@ -1,11 +1,11 @@
 /* IMPORT FONT */
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto:thin');
 
-@import '_bg-decoration.css';
-@import '_header.css';
-@import '_main.css';
-@import '_page-info.css';
-@import '_footer.css';
+@import './cmps/bg-decoration.css';
+@import './cmps/header.css';
+@import './cmps/main.css';
+@import './cmps/page-info.css';
+@import './cmps/footer.css';
 
 * {
 	box-sizing: border-box;

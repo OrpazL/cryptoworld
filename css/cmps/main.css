@@ -53,8 +53,9 @@ main .dots .dot {
 main .slide {
     display: none;
     margin-top: 35px;
-    transition: .5s;
+	transition: .5s;
 }
+
 
 main input[name="slide"]:checked + .slide {
     display: block;
