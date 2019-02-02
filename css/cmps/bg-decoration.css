@@ -11,14 +11,14 @@
 .bg-decoration .bg-square {
 	position: absolute;
 	background-image: linear-gradient(to bottom right, #3023ae 60%, #c86dd7);
-	width: 50vw;
-	height: 50vw;
+	width: 75vw;
+	height: 75vw;
 	border-radius: 25%;
 	z-index: -1;
 }
 .bg-decoration .bg-square.white {
     background: #fff;
-    width: 170vw;
+    width: 250vw;
 	border-radius: 45%;
 }
 .bg-decoration .bg-square.top-left {
@@ -36,13 +36,13 @@
 .bg-decoration .bg-square.middle-left {
 	top: 50%;
 	left: 0;
-	transform: translate(-81%, -50%) rotateZ(-5deg);
+	transform: translate(-80%, -50%) rotateZ(-5deg);
 	z-index: -2;
 }
 .bg-decoration .bg-square.middle-right {
 	top: 50%;
 	right: 0;
-	transform: translate(80%, -70%) rotateZ(-5deg);
+	transform: translate(80%, -70%) rotateZ(-6deg);
 }
 .bg-decoration .bg-square.bottom-left {
 	bottom: 0;

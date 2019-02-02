@@ -92,7 +92,7 @@ footer .copyrights a:hover {
 	text-decoration: underline;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1024px) {
 	footer {
 		background-color: black;
 		margin-top: 300px;

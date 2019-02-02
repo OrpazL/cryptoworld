@@ -74,7 +74,7 @@ main .dots .dot:hover {
     background-color: #fff;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1440px) {
 	main {
 		width: 62%;
 		position: relative;
