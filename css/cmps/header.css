@@ -16,7 +16,7 @@ header {
 }
 
 .top-nav > * {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 header .btn-sign-up {
@@ -33,7 +33,7 @@ header .btn-sign-up {
 
 .top-nav .hamburger:hover {
 	color: #00a9ff;
-	transition: .3s;
+	transition: 0.3s;
 }
 @media (min-width: 1440px) {
 	header {
@@ -41,7 +41,6 @@ header .btn-sign-up {
 		width: 81%;
 		left: 19%;
 		padding: 42px 25px 0;
-		/* margin-bottom: 100px; */
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: flex-end;
@@ -53,6 +52,6 @@ header .btn-sign-up {
 		display: none;
 	}
 	header .btn-sign-up {
-        margin: 0;
-    }
+		margin: 0;
+	}
 }

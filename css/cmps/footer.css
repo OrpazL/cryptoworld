@@ -2,20 +2,15 @@ footer {
 	text-align: center;
 	background-color: #623bbb;
 	color: white;
-
 }
 
 .footer-top {
 	background-color: #623bbb;
-	/* height: 670px; */
 
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	padding: 100px 0;
-
-	/* HIDING FOR DEV */
-	/* display: none; */
 }
 
 .footer-top > *,
@@ -32,8 +27,8 @@ footer {
 	font-size: 1.25em;
 }
 .footer-top .content {
-    padding: 30px 0px;
-} 
+	padding: 30px 0px;
+}
 .footer-top .pages-nav {
 	display: flex;
 	justify-content: space-around;
@@ -102,17 +97,17 @@ footer .copyrights a:hover {
 	.footer-bottom {
 		max-width: 62%;
 		margin: 0 auto;
-    }
-    .footer-top .title {
-        font-size: 3em;
-        font-weight: bold;
-    }
-    .footer-top .subtitle {
-        font-size: 2em;
-    }
-    .footer-top .content {
-        padding: 30px 100px;
-    }    
+	}
+	.footer-top .title {
+		font-size: 3em;
+		font-weight: bold;
+	}
+	.footer-top .subtitle {
+		font-size: 2em;
+	}
+	.footer-top .content {
+		padding: 30px 100px;
+	}
 
 	.footer-top .pages-nav .item {
 		width: 64px;

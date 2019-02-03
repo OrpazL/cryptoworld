@@ -5,7 +5,7 @@ main {
 	align-items: center;
 	width: 100%;
 	padding: 0 25px;
-    text-align: center;
+	text-align: center;
 }
 main .title {
 	font-weight: 100;
@@ -51,18 +51,17 @@ main .dots .dot {
 }
 
 main .slide {
-    display: none;
-    margin-top: 35px;
-	transition: .5s;
+	display: none;
+	margin-top: 35px;
+	transition: 0.5s;
 }
 
-
-main input[name="slide"]:checked + .slide {
-    display: block;
+main input[name='slide']:checked + .slide {
+	display: block;
 }
 
-main input[name="slide"] {
-    display: none;
+main input[name='slide'] {
+	display: none;
 }
 
 main #slide1:checked ~ .dots label:nth-child(1),
@@ -71,7 +70,7 @@ main #slide3:checked ~ .dots label:nth-child(3),
 main #slide4:checked ~ .dots label:nth-child(4),
 main #slide5:checked ~ .dots label:nth-child(5),
 main .dots .dot:hover {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 @media (min-width: 1440px) {

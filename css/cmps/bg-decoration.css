@@ -1,11 +1,10 @@
-
 .bg-decoration {
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
-    z-index: -1;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	z-index: -1;
 }
 
 .bg-square {
@@ -17,15 +16,14 @@
 	z-index: -1;
 }
 .bg-square.white {
-    background: #fff;
-    width: 250vw;
+	background: #fff;
+	width: 250vw;
 	border-radius: 45%;
 }
 .bg-decoration .bg-square.top-left {
 	top: 0;
 	left: 0;
 	transform: translate(-37%, -40%) rotateZ(-15deg);
-	/* transform: translate(-55%, -35%) rotateZ(-35deg); */
 }
 .bg-decoration .bg-square.top-right {
 	top: 0;
@@ -35,32 +33,31 @@
 }
 .bg-square.middle-left {
 	top: 60%;
-    left: 0;
-    transform: translate(-60%, -47%) rotateZ(-5deg) scaleY(4);
-    z-index: -2;
-    border-bottom-right-radius: 25%;
+	left: 0;
+	transform: translate(-60%, -47%) rotateZ(-5deg) scaleY(4);
+	z-index: -2;
+	border-bottom-right-radius: 25%;
 }
 .bg-square.middle-right {
 	top: 30%;
-    right: 0;
-    transform: translate(55%, 30%) rotateZ(-6deg) scaleY(4);
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 0%;
+	right: 0;
+	transform: translate(55%, 30%) rotateZ(-6deg) scaleY(4);
+	border-bottom-left-radius: 50%;
+	border-top-right-radius: 0%;
 }
 .bg-decoration .bg-square.bottom-left {
 	bottom: 18%;
-    left: 0;
-    transform: translate(-60%, 15%) rotateZ(-55deg);
+	left: 0;
+	transform: translate(-60%, 15%) rotateZ(-55deg);
 	z-index: -3;
 }
 .bg-decoration .bg-square.bottom-right {
 	bottom: 18%;
-    right: 0;
-    transform: translate(40%, 20%) rotateZ(150deg);
-    z-index: -3;
+	right: 0;
+	transform: translate(40%, 20%) rotateZ(150deg);
+	z-index: -3;
 	border-bottom-left-radius: 0%;
 }
-
 
 @media (min-width: 1440px) {
 	.bg-decoration .bg-square.middle-left {
@@ -77,7 +74,7 @@
 		border-bottom-left-radius: 45%;
 		border-top-right-radius: 45%;
 	}
-	.bg-decoration .bg-square.bottom-left {		
+	.bg-decoration .bg-square.bottom-left {
 		bottom: 0;
 		left: 0;
 		transform: translate(-27%, 15%) rotateZ(-65deg);
@@ -87,5 +84,4 @@
 		right: 0;
 		transform: translate(55%, 20%) rotateZ(165deg);
 	}
-
 }
